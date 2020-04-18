@@ -43,7 +43,7 @@
           
         <ul class="navbar-nav ml-auto">
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-toggler="dropdown" id="navDrop">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">
               Social 
             </a>
             <div class="dropdown-menu">
@@ -58,15 +58,129 @@
 
         <form class="form-inline">
           <input class="form-control ml-4 mr-2" type="search" placeholder="busca..">
-          <button class="btn btn-default" type="submit">Ok</button>
+          <button class="btn btn-dark" type="submit">Ok</button>
         </form>
-
+<!--Parte Carousel -->
       </div>
       </div>
     </nav> 
+    <div id="carouselSite" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="carouselSite" data-slide-to="0" class="active"></li>
+        <li data-target="carouselStie" data-slide-to="1"></li>
+        <li data-target="carouselSite" data-slide-to="2"></li>
+        <li data-target="carouselSite" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="imgs/foto4.jpg" class="img-fluid d-block">
+          <div class="carousel-caption d-none d-md-block">
+            <h3><strong>Imagine um <em>texto</em> aqui</strong> </h3>
+            <p>E aqui o complemento do <em>texto</em></p>
+          </div>
+        </div>
 
+        <div class="carousel-item">
+          <img src="imgs/foto2.jpg" class="img-fluid d-block">
+          <div class="carousel-caption d-none d-md-block">
+            <h3><strong>Imagine um <em>texto</em> aqui</strong> </h3>
+            <p>E aqui o complemento do <em>texto</em></p>
+          </div>
+        </div>
 
-    <a href="#"class="btn btn-primary" >Teste botão</a> 
+        <div class="carousel-item">
+          <img src="imgs/foto12.jpg!d" class="img-fluid d-block">
+          <div class="carousel-caption d-none d-md-block">
+            <h3><strong>Imagine um <em>texto</em> aqui</strong> </h3>
+            <p>E aqui o complemento do <em>texto</em></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="imgs/foto17.jpg" class="img-fluid d-block">
+          <div class="carousel-caption d-none d-md-block">
+            <h3><strong>Plataforma Digital Completa </h3>
+            <p>Aprenda com nosso conteúdo digital </p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselSite" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselSite" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="sr-only">Avançar</span>
+      </a>
+    </div>
+<!--Fechando Parte Carousel -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center my-4">
+          <h1 class="display-3">Faça parte da turma do curso que mais cresce no país</h1>
+          <p>Cursos totalmente credenciados e certificados validos no Brasil inteiro</p>
+        </div>
+      </div>
+<!--Parte Scrollspy -->
+      </div>
+      <div class="row mb-5">
+        <div class="col-3">
+          <nav id="navbarVertical" class="navbar navbar-lighr bg-light">
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link" href="#item1">Conheça nosso Diferencial</a>
+              <nav class="nav nav-pills flex-column">
+                <a class="nav-link ml-3" href="#item1-1">Profissionais Qualificados</a>
+                <a class="nav-link ml-3" href="#item1-2">Aulas Interativas</a>
+                <a class="nav-link ml-3" href="#item1-3">Aprender com diversão</a>
+              </nav>
+              <a class="nav-link my-2" href="#item2">Saiba mais sobre a metodologia</a>
+              <a class="nav-link my-2" href="#item3">Programas Academicos</a>
+              <nav class="nav nav-pills flex-column">
+                <a class="nav-link ml-3" href="#item3-1">Cursos de Verão</a>
+                <a class="nav-link ml-3" href="#item3-2">Cursos de Inverno</a>
+                <a class="nav-link ml-3" href="#item3-3">Cursos Secundarios</a>
+            </nav>
+          </nav>
+        </div>
+        <div class="col-9">
+          <div data-spy="scroll" data-target="#navbarVertical" data-offset="0" class="scrollspySite">
+            <h4 id="item1">Conheça nossos diferenciais</h4>
+            <p>La carrera de Educación Diferencial busca forma profesores/as especialistas en Educación Especial y Discapacidad Intelectual. 
+              La formación en esta disciplina integra distintas áreas, tales como: ciencias, matemáticas, humanidades, artes y tecnología. 
+              Lo anterior permite que los/las profesionales puedan desempeñarse en todos los niveles del sistema educativo y modalidades de la Educación Especial,
+              con el fin de evaluar, diseñar e implementar la respuesta educativa necesaria y oportuna para los estudiantes que requieran apoyos
+              específicos y así favorecer el aprendizaje y participación en el plano escolar, familiar y comunitario.</p>
+            <h5 id="item1-1">Profissionais Qualificados</h5>
+            <p>Escolha entre mais de 10 mil professores disponiveis para aulas individuais ou em grupos 
+              com base em seus objetivos e interesses</p>
+            <h5 id="item1-2">Aulas Interativas</h5>
+            <p>Uma aula interativa consegue prender a atenção dos alunos e a utilização de recursos digitais e novas ideias a torna mais prazerosa.
+              Para o professor, a aula interativa também assume diversos benefícios, afinal, alunos mais interessados facilitam o processo educativo.</p>
+            <h5 id="item1-3">Aprender com diversão</h5>
+            <p>Além de atividades de interesse cultural, Edu-inter organiza uma grande variedade de 
+              atividades: esportivas, artísticas, viagens, etc. Quem disse que o aprendizado tem que ser difícil?</p>
+            <h5 id="item2">Nossa Metodologia</h5>
+            <p>A metodologia é <em>diferenciada</em> , pois oferece cursos de qualidade e excelência para as pessoas que querem aprender com prazer e de forma eficiente.
+              Na instituição, é proposto um programa “língua-cultura” adaptado ao nível e às necessidades do aluno. 
+              Além de uma metodologia adaptada, Quadros Interativos (TBI), jogos, computadores, DVDs, CDs, livros, jornais etc, são utilizados em sala de aula ou na biblioteca,
+              para que a aprendizagem seja agradável, variada e direcionada ao perfil do aluno. Além disso, a instituição oferece inúmeros cursos: cursos de Inverno, cursos de verão, cursos Secundarios e ateliês temáticos.
+              Ao fim do curso, o aluno estará apto a participar ativamente de discussões e debates, além de ser capaz de utilizar o francês de modo flexível e criativo, reagindo da maneira espontânea e apropriada em situações previstas ou não.</p>
+            <h4 id="item3">Programas Academicos</h4>
+            <p>Aprenda francês e estude um curso profissional ou técnico dentro de um programa acadêmico em Quebec.
+              Os programas acadêmicos permitem trabalhar no CanadáSAIBA</p>
+            <h5 id="item3-1">Curso de Verão</h5>
+            <p>Programas de francês para adultos no verão: oportunidade única para aprender francês e experimentar a cultura de Quebec.
+              Cozinha, Drama, Fotografia, Educação.</p>
+            <h5 id="item3-2">Curso de Inverno</h5>
+            <p>Cursos de francês de inverno para adultos: oportunidade única para aprender francês e conhecer a cultura invernal de Quebec.
+              Ski, Snowboard, Atividades</p>
+            <h5 id="item3-3">Curso Secundario</h5>
+            <p>Nosso programa de francês em escola secundária para adolescentes oferece uma completa imersão 
+              em francês em Quebec: ano letivo, semestres, grupos de estudantes</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#"class="btn btn-primary" >Cadastre-se</a> 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="node_modules/jquery/dist/jquery.js"></script>
